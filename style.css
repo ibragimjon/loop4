@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    height: 100%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container{
+    background-color:#fff;
+    width:400px;
+    
+}
+.cnt {
+    display: flex;
+    background-color: rgb(132, 132, 221);
+    justify-content: space-between;
+    padding: 7px 10px;
+}
+.heading {
+    color: #f6f6f6;
+}
+.cnt-img {
+    
+}
+.today{
+   color:#c0c0c0;
+   font-size: 13px;
+   justify-content: center;
+   align-items:center;
+   margin-left: 170px;
+}
+.sms-text{
+   
+}
+.sms{
+    width: 250px;
+    background-color: #bebebe;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 4px;
+   margin-left: 12px;
+}
+.sms-time{
+    display: flex;
+    justify-content:flex-start;
+    margin-bottom: 6px;
+    margin-left: 12px;
+}
+.sms-time-2 {
+    display: flex;
+    justify-content:flex-end;
+    margin-bottom: 6px;
+    margin-right: 12px;
+}
+.sms-2 {
+    width: 250px;
+    background-color: #bebebe;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: 12px;
+}
+.sms-cont{
+    flex-direction: row-reverse;
+    display: flex;
+    align-items: flex-end;
+   
+}
+.sms-text-2 {
+    margin: 0px;
+    padding: 0px;
+  
+}
+.sms-3-time{
+    margin-left: 12px;
+    
+
+}
+.sms-3 {
+    background-color:#bebebe;
+    width: 80px;
+    background-color: #bebebe;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 4px;
+    margin-left: 12px;
+}
+.sms-3-text {
+}
+
+.sms-4-time {
+   justify-content: flex-end;
+   display: flex;
+   margin-right: 12px;
+}
+.sms-4 {
+    background-color:#e61b1b;
+    width: 220px;
+    
+    margin: 0px;
+    padding: 0px;
+    margin-left: auto;
+    border-radius: 4px;
+    margin-right: 12px;
+}
+.sms-4-text {
+}
+
+.sms-5 {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    width: 400px;
+    border:
+}
+.sms-text-5 {
+    margin-left: 15px;
+}
+.sms-5-heading {
+    color:blue;
+    margin-right: 15px;
+}
+
+hr{
+    margin-top: 10px;
+}
